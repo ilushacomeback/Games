@@ -1,0 +1,22 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(174 174 174 / 34%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  border: none;
+  background: white;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.parent-field {
+    min-width: 150px;
+}
